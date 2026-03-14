@@ -178,7 +178,7 @@
         </div>
     </nav>
 
-    <section class="relative min-h-screen flex items-center pt-32 pb-24 px-6 overflow-hidden bg-space-navy">
+    <section id="hero" class="relative min-h-screen flex items-center pt-32 pb-24 px-6 overflow-hidden bg-space-navy">
         <div class="absolute inset-0 z-0 overflow-hidden">
             <div class="w-full h-full bg-cover bg-center animate-kenburns opacity-90" style="background-image: url('https://github.com/agelmet/SKANDALI/blob/main/20260212_185505.jpg?raw=true');"></div>
         </div>
@@ -196,35 +196,46 @@
             </defs>
         </svg>
 
-        <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 items-center relative z-20">
+        <div class="max-w-7xl mx-auto w-full relative z-20 flex flex-col lg:flex-row items-center gap-16">
             
-            <div class="reveal">
-                <h1 class="text-5xl md:text-7xl lg:text-[5.5rem] font-serif text-white leading-[1.1] tracking-[0.02em] mb-6 drop-shadow-xl">
-                    Ενσυναίσθηση,<br>Αποδοχή & <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-space-rose to-space-purple italic">Αυθεντικότητα</span>
-                </h1>
-                
-                <p class="text-2xl font-serif italic text-white mb-8 drop-shadow-md">
-                    Η Προσωποκεντρική Οδός
-                </p>
-                
-                <div class="flex items-center gap-4 mb-12">
-                    <span class="text-xs font-bold tracking-[0.2em] text-space-rose uppercase no-accents drop-shadow-sm">ΚΟΥΚΑΚΙ</span>
-                    <div class="w-px h-6 bg-white/50"></div>
-                    <span class="text-xs font-bold tracking-[0.2em] text-white uppercase no-accents drop-shadow-sm">ΜΑΙΡΗ ΣΚΑΝΔΑΛΗ</span>
+            <div class="reveal flex-1 flex flex-col gap-6 lg:gap-0 lg:block lg:w-1/2">
+                <div class="order-1 flex flex-col gap-6">
+                    <h1 class="text-5xl md:text-7xl font-serif text-white leading-[1.1] tracking-[0.02em] drop-shadow-xl">
+                        Ενσυναίσθηση,<br>Αποδοχή & <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-space-rose to-space-purple italic">Αυθεντικότητα</span>
+                    </h1>
+                    
+                    <p class="text-2xl font-serif italic text-white drop-shadow-md">
+                        Η Προσωποκεντρική Οδός
+                    </p>
+                    
+                    <div class="flex items-center gap-4 mb-6 lg:mb-12">
+                        <span class="text-xs font-bold tracking-[0.2em] text-space-rose uppercase no-accents drop-shadow-sm">ΚΟΥΚΑΚΙ</span>
+                        <div class="w-px h-6 bg-white/50"></div>
+                        <span class="text-xs font-bold tracking-[0.2em] text-white uppercase no-accents drop-shadow-sm">ΜΑΙΡΗ ΣΚΑΝΔΑΛΗ</span>
+                    </div>
                 </div>
-                
-                <a href="#contact" class="inline-flex px-10 py-5 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-bold tracking-widest text-sm hover:bg-white hover:text-space-navy transition-all duration-500 shadow-[0_0_20px_rgba(212,165,165,0.2)] hover:shadow-[0_0_30px_rgba(212,165,165,0.4)] items-center gap-3 group uppercase no-accents">
-                    ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ
-                    <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300"></i>
-                </a>
+
+                <div class="order-2 mb-6 lg:mb-0 lg:absolute lg:bottom-0 lg:left-0 lg:z-30">
+                    <a href="#contact" class="inline-flex px-10 py-5 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-bold tracking-widest text-sm hover:bg-white hover:text-space-navy transition-all duration-500 shadow-[0_0_20px_rgba(212,165,165,0.2)] hover:shadow-[0_0_30px_rgba(212,165,165,0.4)] items-center gap-3 group uppercase no-accents">
+                        ΚΛΕΙΣΤΕ ΡΑΝΤΕΒΟΥ
+                        <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300"></i>
+                    </a>
+                </div>
+
+                <div class="order-3 block lg:hidden w-full relative h-[450px]">
+                    <div class="absolute inset-0 bg-gradient-to-br from-space-rose to-space-purple rounded-full blur-[60px] opacity-40 animate-pulse"></div>
+                    <div class="absolute inset-0 z-10 border-4 border-white/20 arch-image shadow-xl bg-space-navy animate-float overflow-hidden">
+                        <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_32alfi32alfi32al-2.png?raw=true" alt="Μαίρη Σκανδάλη Mobile Hero" class="w-full h-full object-cover">
+                    </div>
+                </div>
             </div>
 
-            <div class="relative h-[650px] w-full max-w-[480px] ml-auto reveal reveal-delay-2 hidden lg:block">
+            <div class="relative h-[650px] w-full max-w-[480px] ml-auto reveal reveal-delay-2 hidden lg:block flex-1 lg:w-1/2">
                 <div class="absolute inset-0 bg-gradient-to-br from-space-rose to-space-purple rounded-full blur-[80px] opacity-40 animate-pulse"></div>
                 
                 <div class="absolute inset-0 z-10 border-4 border-white/20 arch-image shadow-xl bg-space-navy animate-float">
-                    <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_wozu7swozu7swozu-2.png?raw=true" alt="Μαίρη Σκανδάλη Προσωποκεντρική Ψυχοθεραπεύτρια" class="w-full h-full object-cover">
+                    <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_32alfi32alfi32al-2.png?raw=true" alt="Μαίρη Σκανδάλη Desktop Hero" class="w-full h-full object-cover">
                 </div>
                 
                 <div class="absolute bottom-16 -left-12 z-30 glass-panel-dark p-5 rounded-3xl shadow-xl flex items-center gap-5 border border-white/10 backdrop-blur-xl animate-[blob_8s_infinite_alternate]">
@@ -248,34 +259,42 @@
     </section>
 
     <section id="philosophy" class="py-32 px-6 bg-space-cream relative">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-20 items-center">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-20 items-start">
             
-            <div class="lg:col-span-7 reveal">
+            <div class="lg:col-span-7 reveal grid grid-cols-1 gap-6">
                 <div class="flex items-center gap-4 mb-8">
                     <div class="w-12 h-px bg-space-purple"></div>
                     <span class="text-space-purple font-bold tracking-[0.2em] text-sm uppercase no-accents">Η ΠΡΟΣΕΓΓΙΣΗ ΜΟΥ</span>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-serif text-space-navy mb-8 leading-tight">Ο Κάθε Άνθρωπος Έχει τη Δυναμική να Εξελιχθεί.</h2>
                 
-                <div class="space-y-6 text-lg text-space-slate font-light leading-relaxed">
-                    <p>
-                        Η <strong>Μαίρη Σκανδάλη</strong> είναι Προσωποκεντρική Ψυχοθεραπεύτρια και Σύμβουλος Ψυχικής Υγείας, διατηρώντας το ιδιωτικό της γραφείο σε έναν ζεστό και φιλόξενο χώρο στο Κουκάκι. Η επιστημονική της κατάρτιση είναι πολυδιάστατη και βασισμένη σε διεθνώς αναγνωρισμένα μοντέλα.
-                    </p>
-                    <p>
-                        Ειδικεύτηκε επί πέντε έτη στην Προσωποκεντρική Ψυχοθεραπεία στο ICPS College, σε συνεργασία με το βρετανικό Πανεπιστήμιο του <strong>Strathclyde</strong>.
-                    </p>
-                    <blockquote class="border-l-4 border-space-rose pl-8 py-4 my-10 text-2xl font-serif text-space-navy italic bg-space-rose/5 rounded-r-2xl">
-                        "Η θεραπευτική φιλοσοφία ακολουθεί τις αρχές του Carl Rogers: πιστεύω ακράδαντα στη μοναδικότητα σας, αρκεί να βρεθείτε σε ένα περιβάλλον απόλυτης αποδοχής."
-                    </blockquote>
-                    <p>
-                        Πέρα από την ατομική θεραπεία ενηλίκων, έχει εμβαθύνει σημαντικά στις ανθρώπινες σχέσεις. Είναι εξειδικευμένη στη <strong>Θεραπεία Ζεύγους μέσω της αναγνωρισμένης μεθόδου EFT</strong> (Emotionally Focused Couples Therapy - ICEEFT), βοηθώντας τους συντρόφους να επανασυνδεθούν συναισθηματικά. Επιπλέον, αποτελεί Πιστοποιημένη Εκπαιδεύτρια Αποτελεσματικού Γονέα (PET) από την Gordon Hellas.
-                    </p>
+                <p class="text-lg text-space-slate font-light leading-relaxed">
+                    Η <strong>Μαίρη Σκανδάλη</strong> είναι Προσωποκεντρική Ψυχοθεραπεύτρια και Σύμβουλος Ψυχικής Υγείας, διατηρώντας το ιδιωτικό της γραφείο σε έναν ζεστό και φιλόξενο χώρο στο Κουκάκι. Η επιστημονική της κατάρτιση είναι πολυδιάστατη και βασισμένη σε διεθνώς αναγνωρισμένα μοντέλα.
+                </p>
+                <p class="text-lg text-space-slate font-light leading-relaxed">
+                    Ειδικεύτηκε επί πέντε έτη στην Προσωποκεντρική Ψυχοθεραπεία στο ICPS College, σε συνεργασία με το βρετανικό Πανεπιστήμιο του <strong>Strathclyde</strong>.
+                </p>
+                <blockquote class="border-l-4 border-space-rose pl-8 py-4 my-10 text-2xl font-serif text-space-navy italic bg-space-rose/5 rounded-r-2xl">
+                    "Η θεραπευτική φιλοσοφία ακολουθεί τις αρχές του Carl Rogers: πιστεύω ακράδαντα στη μοναδικότητα σας, αρκεί να βρεθείτε σε ένα περιβάλλον απόλυτης αποδοχής."
+                </blockquote>
+                <p class="text-lg text-space-slate font-light leading-relaxed">
+                    Πέρα από την ατομική θεραπεία ενηλίκων, έχει εμβαθύνει σημαντικά στις ανθρώπινες σχέσεις. Είναι εξειδικευμένη στη <strong>Θεραπεία Ζεύγους μέσω της αναγνωρισμένης μεθόδου EFT</strong> (Emotionally Focused Couples Therapy - ICEEFT), βοηθώντας τους συντρόφους να επανασυνδεθούν συναισθηματικά. Επιπλέον, αποτελεί Πιστοποιημένη Εκπαιδεύτρια Αποτελεσματικού Γονέα (PET) από την Gordon Hellas.
+                </p>
+
+                <div class="block lg:hidden w-full relative h-[400px] my-10">
+                    <div class="absolute inset-0 z-10 border-4 border-white/20 arch-image shadow-xl bg-space-navy animate-float overflow-hidden">
+                        <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_wozu7swozu7swozu-2.png?raw=true" alt="Μαίρη Σκανδάλη Mobile About" class="w-full h-full object-cover">
+                    </div>
                 </div>
+
+                <p class="text-lg text-space-slate font-light leading-relaxed">
+                    Είναι ενεργό μέλος της ΠΕΕΠ και της Ευρωπαϊκής Εταιρείας Ψυχοθεραπείας (ΕΕΨΕ).
+                </p>
             </div>
 
-            <div class="lg:col-span-5 relative reveal reveal-delay-2 hidden lg:block">
+            <div class="lg:col-span-5 relative reveal reveal-delay-2 hidden lg:block mt-24">
                 <div class="aspect-[3/4] rounded-[2.5rem] relative overflow-hidden shadow-2xl group border-4 border-white">
-                     <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_wozu7swozu7swozu-2.png?raw=true" alt="Μαίρη Σκανδάλη Προσωποκεντρική Ψυχολόγος" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                     <img src="https://github.com/agelmet/SKANDALI/blob/main/Gemini_Generated_Image_wozu7swozu7swozu-2.png?raw=true" alt="Μαίρη Σκανδάλη Desktop About" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 </div>
                 <div class="absolute -bottom-8 -left-8 w-40 h-40 bg-space-purple/20 rounded-full blur-[40px] z-[-1]"></div>
             </div>
@@ -301,7 +320,7 @@
                         </div>
                         <h3 class="text-2xl md:text-3xl font-serif font-bold text-space-navy mb-4">Ατομική Προσωποκεντρική Ψυχοθεραπεία</h3>
                         <p class="text-space-slate mb-8 text-lg leading-relaxed flex-grow">
-                            Εσείς ορίζετε τον ρυθμό. Μέσα από τη βαθιά ενσυναίσθηση, δημιουργούμε τον χώρο για να επεξεργαστείτε το άγχος, την κατάθλιψη, τις διαταραχές πανικού, το PTSD και το πένθος.
+                            Στην ατομική θεραπεία, εσείς ορίζετε τον ρυθμό. Μέσα από τη βαθιά ενσυναίσθηση, δημιουργούμε τον χώρο για να επεξεργαστείτε το άγχος, την κατάθλιψη, τις διαταραχές πανικού, το PTSD και το πένθος. Στόχος η ανακούφιση, η ενίσχυση αυτοεκτίμησης και η ουσιαστική αυτοβελτίωση.
                         </p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white text-space-purple shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΣΥΝΕΔΡΙΑ 45'</span>
@@ -318,7 +337,7 @@
                         </div>
                         <h3 class="text-2xl md:text-3xl font-serif font-bold text-space-navy mb-4">Θεραπεία Ζεύγους EFT</h3>
                         <p class="text-space-slate mb-8 text-lg leading-relaxed flex-grow">
-                            Με 5 χρόνια ειδικής εμπειρίας στο ICEEFT. Η μέθοδος εστιάζει στα μοτίβα αλληλεπίδρασης και στις ανεκπλήρωτες ανάγκες. Σπάστε τον κύκλο συγκρούσεων και χτίστε ασφαλή δεσμό.
+                            Με 5 χρόνια ειδικής εμπειρίας στο ζεύγος και εξειδίκευση στο ICEEFT. Η μέθοδος εστιάζει στα μοτίβα αλληλεπίδρασης και στις ανεκπλήρωτες ανάγκες. Σπάστε τον κύκλο συγκρούσεων και χτίστε ασφαλή δεσμό συντροφικότητας.
                         </p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white text-space-rose shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΣΥΝΕΔΡΙΑ 45'</span>
@@ -335,10 +354,10 @@
                         </div>
                         <h3 class="text-2xl md:text-3xl font-serif font-bold text-space-navy mb-4">Συμβουλευτική Γονέων (Gordon PET)</h3>
                         <p class="text-space-slate mb-8 text-lg leading-relaxed flex-grow">
-                            Ως Πιστοποιημένη Εκπαιδεύτρια της μεθόδου Gordon, προσφέρω δομημένη συμβουλευτική. Μάθετε "ενεργητική ακρόαση" και λύστε συγκρούσεις χτίζοντας σχέσεις σεβασμού.
+                            Ως Πιστοποιημένη Εκπαιδεύτρια της μεθόδου Gordon, προσφέρω δομημένη συμβουλευτική. Μάθετε "ενεργητική ακρόαση" και λύστε συγκρούσεις χτίζοντας σχέσεις σεβασμού με τα παιδιά σας.
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white text-space-blue shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΕΡΓΑΣΤΗΡΙΑ</span>
+                            <span class="px-4 py-2 bg-white text-space-blue shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΕΡΓΑΣΤΗΡΙΑ 45'</span>
                             <span class="px-4 py-2 bg-white text-space-blue shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΓΟΝΕΪΚΟΤΗΤΑ</span>
                         </div>
                     </div>
@@ -352,7 +371,7 @@
                         </div>
                         <h3 class="text-2xl md:text-3xl font-serif font-bold text-space-navy mb-4">Ομάδες & Προσβασιμότητα</h3>
                         <p class="text-space-slate mb-8 text-lg leading-relaxed flex-grow">
-                            Η θεραπεία πρέπει να είναι προσβάσιμη. Παρέχονται Ομάδες Προσωπικής Ανάπτυξης, κατ' οίκον επισκέψεις και ειδικό κόστος για φοιτητές, ανέργους και ΑΜΕΑ.
+                            Η θεραπευτική πρέπει να είναι προσβάσιμη σε όλους. Παρέχονται Ομάδες Προσωπικής Ανάπτυξης, κατ' οίκον επισκέψεις για άτομα που αδυνατούν να μετακινηθούν, και ειδική, μειωμένη τιμολογιακή πολιτική για φοιτητές, ανέργους και ΑΜΕΑ.
                         </p>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white text-space-navy shadow-sm text-xs font-bold tracking-wide rounded-full no-accents">ΕΙΔΙΚΟ ΚΟΣΤΟΣ</span>
@@ -429,7 +448,7 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-20 reveal">
                 <h2 class="text-4xl md:text-6xl font-serif text-space-navy mt-4 mb-6">Ένας Χώρος Αποδοχής</h2>
-                <p class="text-space-slate max-w-2xl mx-auto text-lg">Το γραφείο στο Κουκάκι έχει σχεδιαστεί με γνώμονα την ηρεμία και την ασφάλεια, ώστε να νιώσετε απόλυτα άνετα.</p>
+                <p class="text-space-slate max-w-2xl mx-auto text-lg">Το γραφείο στο Κουκάκι έχει σχεδιαστεί με γνώμονα την ηρεμία και την ασφάλεια, ώστε να νιώσετε απόλυτα άνετα. Περιηγηθείτε στις εικόνες του χώρου.</p>
             </div>
 
             <div class="flex flex-col md:flex-row gap-6 items-start">
